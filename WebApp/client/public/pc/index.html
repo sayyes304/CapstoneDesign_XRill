@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="ko">
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+  <link rel="icon" href="../images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="../css/main.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>emptied | PC 화면 공유</title>
+</head>
+
+<body>
+  <div id="container">
+    <h1>PC 화면 공유</h1>
+    <div id="warning" hidden=true></div>
+
+    <!-- <div id="select">
+      <label for="videoSource">Video source: </label>
+      <select id="videoSource" autocomplete="off"></select>
+      <label for="audioSource">Audio source: </label>
+      <select id="audioSource" autocomplete="off"></select>
+    </div> -->
+
+    <!-- <div id="resolutionSelect">
+      <label for="videoResolution">Video resolution: </label><select id="videoResolution" autocomplete="off"></select>
+    </div>
+    <div id="resolutionInput">
+      <label for="cameraWidth">Camera width:</label><input id="cameraWidth" type="number" min="0" max="4096" autocomplete="off" disabled>
+      <label for="cameraHeight">Camera height:</label><input id="cameraHeight" type="number" min="0" max="4096" autocomplete="off" disabled>
+    </div>
+    
+
+    <div id="buttons">
+      <button type="button" id="startVideoButton" autocomplete="off">Start Video</button>
+      <button type="button" id="setUpButton" autocomplete="off" disabled>Set Up</button>
+      <button type="button" id="hangUpButton"  autocomplete="off" disabled>Hang Up</button>
+    </div> -->
+
+    <div id="preview">
+      <div id="local">
+        <video id="localVideo" playsinline autoplay muted=true></video>
+      </div>
+    </div>
+
+    <div id="btnStartSharing" class="btn--red">
+      <div class="material-icons">computer</div>
+      <br>화면 공유 시작하기
+    </div>
+
+    <div class="connectionList">
+      <div class="box">
+        <div>User1</div>
+        <select id="connId1">
+          <option value="">유저 ID</option>
+        </select>
+        <div id="startBtn1" class="btn--blue">전송</div>
+      </div>
+      <div class="box">
+        <div>User2</div>
+        <select id="connId2">
+          <option value="">유저 ID</option>
+        </select>
+        <div id="startBtn2" class="btn--blue">전송</div>
+      </div>
+      <div class="box">
+        <div>User3</div>
+        <select id="connId3">
+          <option value="">유저 ID</option>
+        </select>
+        <div id="startBtn3" class="btn--blue">전송</div>
+      </div>
+      <div class="box">
+        <div>User4</div>
+        <select id="connId4">
+          <option value="">유저 ID</option>
+        </select>
+        <div id="startBtn4" class="btn--blue">전송</div>
+      </div>
+      <div class="box">
+        <div>User5</div>
+        <select id="connId5">
+          <option value="">유저 ID</option>
+        </select>
+        <div id="startBtn5" class="btn--blue">전송</div>
+      </div>
+    </div>
+
+
+    <div class="info">
+      <h3>Codec preferences:</h3>
+      <select id="codecPreferences" autocomplete="off" disabled>
+        <option selected value="">Default</option>
+      </select>
+    </div>
+    
+    <div id="localVideoStats"></div>
+    <div id="message"></div>
+    </section>
+  </div>
+  </div>
+</body>
+
+<script type="text/javascript" src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+<script src="https://unpkg.com/event-target@latest/min.js"></script>
+<script src="https://unpkg.com/resize-observer-polyfill@1.5.0/dist/ResizeObserver.global.js"></script>
+<script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=IntersectionObserver"></script>
+<script type="module" src="js/main.js"></script>
+<script type="module" src="js/getcookie.js"></script>
+
+
+</body>
+
+</html>

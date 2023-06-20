@@ -1,0 +1,157 @@
+/* div h1 {
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid #000;
+} */
+
+/* div#select, div#resolution {
+  margin: 1em;
+}
+
+button {
+  margin: 0 20px 5px 0;
+  vertical-align: top;
+  width: 155px;
+}
+
+div#buttons {
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  margin: 1em 0 1em 0;
+  padding: 1em 0 1em 0;
+}
+
+div#local {
+  margin: 0 20px 0 0;
+}
+
+div#preview {
+  border-bottom: 1px solid #eee;
+  margin: 0 0 1em 0;
+  padding: 0 0 0.5em 0;
+}
+
+div#preview>div {
+  display: inline-block;
+  vertical-align: top;
+  width: calc(50% - 20px);
+}
+
+div#connectionId {
+  margin: 1em;
+}
+
+h2 {
+  margin: 0 0 0.5em 0;
+}
+*/
+
+#titleDiv {
+  position: relative;
+}
+
+#titleDiv h1 {
+  display: inline-block;
+}
+
+#titleDiv .btn--blue {
+  width: 100px;
+  /* position: absolute; */
+}
+
+div.connectionList {
+  margin: .5em 0 .5em;
+  display: flex;
+}
+
+div.box:first-child {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+  margin-right: 0.5em;
+}
+
+div.box:nth-child(2) {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+div.box:nth-child(3) {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+div.box:nth-child(4) {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+div.box:last-child {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+  margin-left: 0.5em;
+}
+
+div.box div {
+  font-weight: 700;
+  margin-bottom: 0.5em;
+}
+
+div.box select {
+  width: 100%;
+  height: 30px;
+  border-radius: 1em;
+}
+
+div.info {
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+  padding: 1em;
+  margin-top: .55em;
+}
+
+div.info h3 {
+  font-size: 1.2em;
+  font-weight: 700;
+  margin: 0;
+}
+
+textarea {
+  color: #444;
+  font-size: 0.9em;
+  font-weight: 300;
+  width: calc(20% - 10px);
+  height: 1.3em;
+  line-height: 1.3;
+  vertical-align: middle;
+}
+
+video {
+  background-color: #444;
+  background-image: url("../../images/logo_forVideoElement.png");
+  background-position: 50% 50%;
+  background-size: 25%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 56.25%;
+  border-radius: 1em;
+} 
+
+select#codecPreferences {
+  width: 100%;
+}

@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <!-- iOS -->
+  <!-- 주소창 등의 웹 브라우저 UI를 표시하지 않기 -->
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <!-- 상태 바의 스타일을 지정 -->
+  <meta
+    name="apple-mobile-web-app-status-bar-style"
+    content="black-translucent"
+  />
+  <!-- 홈 화면에서 표시되는 앱 이름을 지정 -->
+  <meta name="apple-mobile-web-app-title" content="emptied">
+  <!-- 홈 화면에서 표시되는 앱 아이콘을 지정 -->
+  <link rel="apple-touch-icon" href="./icons/iconforios.png" />
+
+  <!-- Android, PC, Chrome -->
+  <!-- 웹 앱 매니페스트를 읽어 들이기 -->
+  <link rel="manifest" href="manifest.json" />
+  <!-- 서비스 워커를 등록 -->
+  <!-- 서비스 워커는 웹 로직과 별개로 백그라라운드에서 동작하는 코드임. -->
+  <script>
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("./js/sw.js").then((reg) => {
+        console.log("서비스 워커가 등록됨.", reg);
+      });
+    }
+  </script>
+      <script src="js/home/getcookie.js" defer></script>
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.css" />
+  <title>emptied</title>
+</head>
+
+<body>
+  <div id="container">
+    <header class="title">
+      <img src="./images/logo.png" alt="emptied_logo">
+      <h1>emptied</h1>
+    </header>
+
+    <div class="divider"></div>
+
+    <section id="menu">
+      <div id="PC" class="btn--red" onClick="location.href='./pc/index.html'">
+        <div class="material-icons">computer</div>
+        <br>PC
+      </div>
+      <div id="videoCall" class="btn--blue" onClick="location.href='./bidirectional/index.html'">
+        <div class="material-icons">video_call</div>
+        <br>Video Call
+      </div>
+    </section>
+
+    <section id="menu">
+        <div class="btn--login" id="loginBtn" onClick="location.href='/login'">
+        <div>로그인</div>
+      </div>
+      <div class="btn--register" id="RegisterBtn" onClick="location.href='/register'">
+        <div>회원가입</div>
+      </div>
+      <div class="btn--logout" id="LogoutBtn" onClick="location.href='/logout'">
+        <div>로그아웃</div>
+      </div>
+    </section>
+
+    <section id ="info">
+      <h1 id="user_cookieValue" style="text-align: center;"></h1>
+    </section>
+
+    <section id="info">
+      <div id="startup">
+        <!-- h3
+        li
+        li -->
+      </div>
+              
+    </section>
+
+  </html>
+    <!-- <section>
+      <h2 id="receiver"><a href="receiver/index.html">Receiver Sample</a></h2>
+      <p>This is a sample for receiving video / audio from Unity.</p>
+      <p>
+        It can be used in combination with the <code>Broadcast</code> scene of
+        Unity Render Streaming.
+      </p>
+    </section>
+
+    <section>
+      <h2 id="bidirectional">
+        <a href="bidirectional/index.html">Bidirectional Sample</a>
+      </h2>
+      <p>
+        This is a sample for sending and receiving video in both directions.
+      </p>
+      <p>
+        It can be used in combination with the <code>Bidirectional</code> scene
+        of Unity Render Streaming.
+      </p>
+      <p>The WebApp must be running in Private mode.</p>
+    </section>
+
+    <section>
+      <h2 id="multiplay">
+        <a href="multiplay/index.html">Multiplay Sample</a>
+      </h2>
+      <p>
+        This sample connects as a Guest in the <code>Multiplay</code> scene of
+        Unity Render Streaming.
+      </p>
+    </section>
+
+    <section>
+      <h2 id="videoplayer">
+        <a href="videoplayer/index.html">VideoPlayer Sample</a>
+      </h2>
+      <p>
+        This is a sample to receive the camera image rendered on Unity. You can
+        operate the camera in Unity from the browser.
+      </p>
+      <p>
+        It can be used in combination with the
+        <code>WebBrowserInput</code> scene of Unity Render Streaming.
+      </p>
+      <p>The WebApp must be running in Public mode.</p>
+    </section>
+
+    <section>
+      <a href="https://github.com/Unity-Technologies/UnityRenderStreaming/tree/develop/WebApp"
+        title="View source for this page on GitHub" id="viewSource">View source on GitHub</a>
+    </section> -->
+  </div>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
+
