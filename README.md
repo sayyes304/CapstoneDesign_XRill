@@ -27,6 +27,6 @@ install Oculus Integration (Unity Asset)
   [![Video Label](http://img.youtube.com/vi/RF8YfTqDmmU/0.jpg)](https://www.youtube.com/watch?v=RF8YfTqDmmU)
 
 <div align="center">
-  [<img src="https://img.youtube.com/vi/RF8YfTqDmmU/hqdefault.jpg" width="600" height="300"/>](https://www.youtube.com/embed/RF8YfTqDmmU)
+  <a href="http://www.youtube.com/watch?feature=player_embedded&v=RF8YfTqDmmU" target="_blank"><img src="http://img.youtube.com/vi/nTQUwghvy5Q/hqdefault.jpg" alt="Watch the video" width="240" height="180" border="10" /></a>
   <img src = "https://github.com/sayyes304/CapstoneDesign_XRill/assets/63798930/8ac01a22-4c13-4bc6-b7d4-bb605b3bfc02")
 </div>
