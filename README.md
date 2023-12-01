@@ -25,6 +25,6 @@ install Oculus Integration (Unity Asset)
 
 ## 결과물 
 <div align="center">
-  [[![Video Label](http://img.youtube.com/vi/RF8YfTqDmmU/0.jpg)](https://www.youtube.com/watch?v=RF8YfTqDmmU)
+  [![Video Label](http://img.youtube.com/vi/RF8YfTqDmmU/0.jpg)](https://www.youtube.com/watch?v=RF8YfTqDmmU)
   <img src = "https://github.com/sayyes304/CapstoneDesign_XRill/assets/63798930/8ac01a22-4c13-4bc6-b7d4-bb605b3bfc02")
 </div>
