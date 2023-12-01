@@ -24,13 +24,7 @@ install Oculus Integration (Unity Asset)
 ```
 
 ## 결과물 
-<div align="center">
-  |제목 셀1|제목 셀2|제목 셀3|제목 셀4|
-  |---|---|---|---|
-  |내용 1|내용 2|내용 3|내용 4|
-  |내용 5|내용 6|내용 7|내용 8|
   |Video|
   |---|
   |<a href="http://www.youtube.com/watch?feature=player_embedded&v=RF8YfTqDmmU" target="_blank"><img src="http://img.youtube.com/vi/RF8YfTqDmmU/hqdefault.jpg" alt="Watch the video" width="1024" height="576" border="10" /></a>|
   |<img src = "https://github.com/sayyes304/CapstoneDesign_XRill/assets/63798930/8ac01a22-4c13-4bc6-b7d4-bb605b3bfc02")|
-</div>
